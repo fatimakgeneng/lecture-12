@@ -1,0 +1,21 @@
+[project]
+name = "crews-agents-tasks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Fatima Khan", email = "pinkoosagi@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.102.0",
+    "crewai-tools>=0.36.0",
+]
+
+[project.scripts]
+crews-agents-tasks = "crews_agents_tasks:main"
+panaflow = "crews_agents_tasks.main:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,4 @@
+crew-py
+python-dotenv
+litellm
+pyyaml 
